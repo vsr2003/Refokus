@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active::before {
+    content: " ";
+    z-index: 1000;
+    height: 8px;
+    width: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    filter: blur(1px);
+    background-color: green;
+}
+
