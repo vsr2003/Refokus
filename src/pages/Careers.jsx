@@ -1,28 +1,12 @@
 import Jobs from "../components/Jobs"
 
-import '../locomotive.css';
-import locomotive from 'locomotive-scroll';
-import { useEffect, useRef } from 'react';
+
 
 
 function Careers() {
 
-    const scrollRef = useRef(null);
-    useEffect(()=>{
-
-    const scroll = new locomotive({
-      el:scrollRef.current ,
-      smooth:true,
-    })
-
-    return ()=>{
-      scroll.destroy();
-    }
-
-    },[])
-
   return (
-    <div className=" min-h-[100vh] mt-[15vh] p-5 bg-white " ref={scrollRef}>
+    <div className=" min-h-[100vh] mt-[15vh] p-5 bg-white " >
         
         {/* hero career heading */}
         <div className=" sm:h-[70vh]  lg:h-[40vh] flex justify-end lg:px-10 border-b border-gray-300 ">

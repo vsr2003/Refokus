@@ -4,31 +4,31 @@ import WorkHero from '../components/WorkHero';
 import Works from '../components/Works';
 
 
-import '../locomotive.css';
-import locomotive from 'locomotive-scroll';
-import { useEffect, useRef } from 'react';
+// import '../locomotive.css';
+// import locomotive from 'locomotive-scroll';
+// import { useEffect, useRef } from 'react';
 
 
 function Work() {
 
-  const scrollRef = useRef(null);
+  // const scrollRef = useRef(null);
   
-  useEffect(()=>{
+  // useEffect(()=>{
 
-    const scroll = new locomotive({
-      el:scrollRef.current ,
-      smooth:true,
-    })
+  //   const scroll = new locomotive({
+  //     el:scrollRef.current ,
+  //     smooth:true,
+  //   })
 
-    return ()=>{
-      scroll.destroy();
-    }
+  //   return ()=>{
+  //     scroll.destroy();
+  //   }
 
-  },[])
+  // },[])
 
 
   return (
-    <div className=" w-full h-auto text-black bg-white " ref={scrollRef} >
+    <div className=" w-full h-auto text-white bg-black "  >
 
       <WorkHero />
 

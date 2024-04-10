@@ -9,6 +9,10 @@ import locomotive from 'locomotive-scroll';
 import { useEffect, useRef } from 'react';
 
 
+import Marquee from "react-fast-marquee";
+import MarqueeImages from '../components/MarqueeImages';
+
+
 
 function Home() {
 
@@ -30,10 +34,20 @@ function Home() {
 
   return (
     <div className=' scroll-container bg-black  ' ref={scrollRef}   >
+
       <Hero />
+
+      <MarqueeImages direction={"left"} />
+      <MarqueeImages direction={"right"} />
+
       <Products />
+
+      <MarqueeImages direction={"left"}  />
+      <MarqueeImages direction={"right"} />
+
       <ForwardThinking />
       <HomeProject />
+
     </div>
   )
 }

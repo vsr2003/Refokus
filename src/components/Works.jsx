@@ -5,7 +5,7 @@ function Works() {
 
   return (
 
-    <div className=" mt-[15vh] hidden  min-h-[300vh] w-full  lg:flex flex-col  ">
+    <div className=" mt-[15vh] hidden  min-h-[300vh] w-full  lg:flex flex-col gap-[10vh]  ">
       {
           WorkData.map((obj)=>(
             <Work data={obj} />

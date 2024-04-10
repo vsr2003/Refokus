@@ -9,7 +9,7 @@ function SwiperPage({data}) {
         <h1 className=" text-3xl font-semibold "> {title} </h1>
         <div className=" w-[100%] h-[80%] rounded-2xl object-cover bg-purple-700 "> <img src={image} alt="" className=" w-full h-full object-cover rounded-2xl " /> </div>
         <p className=" text-sm "> {description} </p>
-        <div className=" w-[120px] h-[40px] rounded-full bg-red-500 "> <Button title={"Live website"} /> </div>
+        <div className=" w-[120px] h-[40px] rounded-full bg-red-500 "> <Button obj={{title:"Live Website", borderColor:"",link:"",bgColor:"white"}} /> </div>
     </div>
   )
 }

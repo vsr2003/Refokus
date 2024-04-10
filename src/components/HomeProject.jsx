@@ -40,7 +40,7 @@ function HomeProject() {
 
             <div>
                 <h1 className=" text-[10vh] leading-[1.2] sm:text-[15vh] font-semibold py-5 sm:my-2 lg:my-0 ">Start a Project</h1>
-                <div className=" w-[32%] h-[40px] sm:w-[20%] lg:h-[50px] sm:h-[45px] "> <Button title={"Contact Us"} /> </div>
+                <div className=" w-[32%] h-[40px] sm:w-[20%] lg:h-[50px] sm:h-[45px] "> <Button obj={{title:"Contact Us", borderColor:"",link:"",bgColor:"white"}} /> </div>
             </div>
 
         </div>

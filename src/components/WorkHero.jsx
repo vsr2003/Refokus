@@ -2,7 +2,7 @@
 
 function WorkHero() {
   return (
-    <div className=' mt-[15vh]  min-h-[85vh] text-black '>
+    <div className=' mt-[15vh]  min-h-[85vh] text-white '>
         
         <div className=' relative md:h-[90vh]  h-[85vh] leading-none overflow-hidden w-full flex  lg:items-end  '>
             

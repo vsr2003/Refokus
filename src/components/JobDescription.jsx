@@ -1,10 +1,14 @@
 
+import { useLocation } from 'react-router';
 import Button from './Button'
 
 function JobDescription({description}) {
 
   console.log(description)
   const {position,location,type,link} = description ;
+
+  const loc = useLocation();
+  console.log("Location now ",loc)
 
   return (
     <div className=' w-full  h-full border-b border-gray-300 flex flex-col gap-5 sm:flex-row justify-between sm:items-center  p-5 '>
@@ -16,7 +20,7 @@ function JobDescription({description}) {
         </div>
 
         <div className=' w-[100px] h-[35px]  rounded-full   '>
-            <Button title={"open"}  />
+            <Button obj={{title:"Start Project", borderColor:"black",link:"",bgColor:"white"}}  />
         </div>
 
     </div>

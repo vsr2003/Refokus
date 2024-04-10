@@ -1,17 +1,32 @@
 import { useEffect } from 'react';
 import * as THREE from 'three';
 import NET from 'vanta/src/vanta.net';
+import RINGS from 'vanta/src/vanta.rings';
 
 
 function Hero() {
 
   useEffect(() => {
-    const netEffect = NET({
+    // const netEffect = NET({
+    //     el: "#vanta",
+    //     backgroundColor: 'black',
+    //     points: 20.00,
+    //     maxDistance: 14.00,
+    //     spacing: 20.00,
+    //     THREE: THREE,
+    // });
+
+    const netEffect = RINGS({
         el: "#vanta",
-        backgroundColor: 'black',
-        points: 20.00,
-        maxDistance: 14.00,
-        spacing: 20.00,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 100.00,
+        minWidth: 100.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0x0,
+        color: 0x22ff,
         THREE: THREE,
     });
 
@@ -25,7 +40,7 @@ function Hero() {
 
 
   return (
-    <div className="h-screen  w-screen pt-[15vh] flex flex-col justify-end gap-5 lg:flex-row md:gap-y-5  lg:items-end lg:justify-between  md:justify-between lg:p-5  text-white "
+    <div className=" mb-10 h-screen  w-screen pt-[15vh] flex flex-col justify-end gap-5 lg:flex-row md:gap-y-5  lg:items-end lg:justify-between  md:justify-between lg:p-5  text-white "
       id='vanta'
     >
         

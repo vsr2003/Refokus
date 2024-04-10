@@ -52,7 +52,7 @@ function Product({obj}) {
             <div className=' lg:w-[50%]  text-white   flex flex-col lg:gap-10 gap-5 '>
                 <p className=" lg:w-[90%] lg:leading-[1.2] leading-[1.2] text-lg font-semibold lg:text-sm ">{description}</p>
                 <div className=" lg:w-[35%] md:w-[25%] w-[50%] h-[45px] ">
-                    <Button title={"Visit Website"} />
+                    <Button obj={{title:"Visit Website", borderColor:"white",link:"",bgColor:"white"}} />
                 </div>
             </div>
 
