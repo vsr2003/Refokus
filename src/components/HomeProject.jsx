@@ -3,7 +3,7 @@ import Button from './Button';
 
 function HomeProject() {
   return (
-    <div className=' lg:mt-[20vh] sm:mt-[60vh] mt-[50vh]   w-full lg:h-[70vh] sm:h-[150vh] h-[130vh]  select-none  flex lg:flex-row flex-col-reverse p-1 sm:p-5 gap-1  ' >
+    <div className=' lg:mt-[20vh] sm:mt-[60vh] mt-[50vh] w-full lg:h-[60vh] sm:h-[150vh] h-[130vh]  select-none  flex lg:flex-row flex-col-reverse p-1 sm:p-5 gap-1  ' >
         
         {/* left */}
         <div className='  lg:w-[35%] h-[35%] sm:h-[65%] lg:h-full  bg-[#3E3E46] group text-white flex flex-col justify-between rounded-2xl lg:p-3 p-5 ' >

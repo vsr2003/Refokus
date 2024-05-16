@@ -33,7 +33,7 @@ function Home() {
 
 
   return (
-    <div className=' scroll-container bg-black  ' ref={scrollRef}   >
+    <div className=' scroll-container bg-black h-full  ' ref={scrollRef}   >
 
       <Hero />
 
@@ -45,8 +45,11 @@ function Home() {
       <MarqueeImages direction={"left"}  />
       <MarqueeImages direction={"right"} />
 
+      <HomeProject/>
+      
       <ForwardThinking />
-      <HomeProject />
+      
+      {/* <HomeProject/> */}
 
     </div>
   )

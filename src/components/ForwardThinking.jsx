@@ -2,7 +2,7 @@
 
 function ForwardThinking() {
   return (
-    <div className='  mt-[50vh]  w-screen h-[110vh] md:p-3 p-1 flex-col flex lg:flex-row justify-center gap-[5%] '>
+    <div className='  mt-[10vh]  w-screen h-[110vh] md:p-3 p-1 flex-col flex lg:flex-row justify-center gap-[5%] '>
 
         <div className=' relative  lg:w-[50%] w-full h-full  flex flex-col justify-center gap-20 text-white  '>
             <h1 className=' md:text-[15vh] text-[10vh] leading-[1] font-semibold mt-[5%] sm:ml-[10%] ml-0 lg:ml-0 '>Forward <br /> --Thinking</h1>
